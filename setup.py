@@ -1,0 +1,21 @@
+from setuptools import setup
+
+setup(name='Famequestions',
+      version='1.0',
+      description='A basic Flask app with static files',
+      author='Lone Wolves',
+      author_email='lonewolvesunderdogs@gmail.com',
+      url='http://www.python.org/sigs/distutils-sig/',
+     install_requires=['Flask>=0.10.1','dominate>=2.1.16','Flask-Bootstrap>=3.3.5.7','Flask-Login>=0.3.2',
+     'Flask-SQLAlchemy>=2.1',
+'Flask-WTF>=0.12',
+'itsdangerous>=0.24',
+'Jinja2>=2.8',
+'MarkupSafe>=0.23',
+'SQLAlchemy>=1.0.11',
+'visitor>=0.1.2',
+'Werkzeug>=0.11.3',
+'wheel>=0.24.0',
+'WTForms>=2.1',
+],
+     )
